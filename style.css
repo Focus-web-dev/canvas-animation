@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #b94f4f;
+}
+
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
